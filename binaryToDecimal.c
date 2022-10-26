@@ -7,7 +7,7 @@ int main(){
     // the formula is: decimal number = ++(eachBinaryNumber * base according to index)
     // base in the start is 1, since the index is 1
     // calc is a variable to store the number at a specific index
-    printf("Enter a binary integer (1s and 0s, max 5):\n");
+    printf("Enter a binary integer (1s and 0s):\n");
     scanf("%d", &binary);       //inputs the binary number
     for (;binary>0;){       
         calc = binary % 10;         //if binary is 101, calc becomes 1 (present in the last)
